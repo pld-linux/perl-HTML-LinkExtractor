@@ -29,10 +29,10 @@ HTML.  It is very similar to HTML::LinkExtor, except that besides
 getting the URL, you also get the link-text.
 
 %description -l pl
-Modu³ Perla HTML::LinkExtractor s³u¿y do wyodrêbniania ³±cz z kodu
-HTML. Jest on bardzo podobny do modu³u HTML::LinkExtor z tym
+Modu³ Perla HTML::LinkExtractor s³u¿y do wyodrêbniania odno¶ników z
+kodu HTML. Jest on bardzo podobny do modu³u HTML::LinkExtor z tym
 wyj±tkiem, ¿e otrzymuje siê URL razem z tekstem stanowi±cym tre¶æ
-³±cza.
+odno¶ników.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
