@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	LinkExtractor
-Summary:	HTML::LinkExtractor - Extract links from an HTML document
-#Summary(pl):	
+Summary:	HTML::LinkExtractor - extract links from an HTML document
+Summary(pl):	HTML::LinkExtractor - wyodrêbnianie odno¶ników z dokumentów HTML
 Name:		perl-HTML-LinkExtractor
 Version:	0.11
 Release:	1
@@ -24,12 +24,15 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-HTML::LinkExtractor is used for extracting links from HTML.  It is
-very similar to L<HTML::LinkExtor|HTML::LinkExtor>, except that besides
+HTML::LinkExtractor Perl module is used for extracting links from
+HTML.  It is very similar to HTML::LinkExtor, except that besides
 getting the URL, you also get the link-text.
 
-# %description -l pl
-# TODO
+%description -l pl
+Modu³ Perla HTML::LinkExtractor s³u¿y do wyodrêbniania ³±cz z kodu
+HTML. Jest on bardzo podobny do modu³u HTML::LinkExtor z tym
+wyj±tkiem, ¿e otrzymuje siê URL razem z tekstem stanowi±cym tre¶æ
+³±cza.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
