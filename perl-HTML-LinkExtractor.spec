@@ -25,7 +25,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 HTML::LinkExtractor Perl module is used for extracting links from
-HTML.  It is very similar to HTML::LinkExtor, except that besides
+HTML. It is very similar to HTML::LinkExtor, except that besides
 getting the URL, you also get the link-text.
 
 %description -l pl
