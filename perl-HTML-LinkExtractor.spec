@@ -3,8 +3,8 @@
 %bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	HTML
-%define	pnam	LinkExtractor
+%define		pdir	HTML
+%define		pnam	LinkExtractor
 Summary:	HTML::LinkExtractor - extract links from an HTML document
 Summary(pl):	HTML::LinkExtractor - wyodrêbnianie odno¶ników z dokumentów HTML
 Name:		perl-HTML-LinkExtractor
