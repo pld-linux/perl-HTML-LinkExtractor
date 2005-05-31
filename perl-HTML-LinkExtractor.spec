@@ -8,13 +8,13 @@
 Summary:	HTML::LinkExtractor - extract links from an HTML document
 Summary(pl):	HTML::LinkExtractor - wyodrêbnianie odno¶ników z dokumentów HTML
 Name:		perl-HTML-LinkExtractor
-Version:	0.121
+Version:	0.13
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	642c67042e7b83942d7ece142bbe4be8
+# Source0-md5:	a30143b35ef76576fb984696746776de
 BuildRequires:	perl-devel >= 1:5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
