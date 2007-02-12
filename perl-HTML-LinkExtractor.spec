@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	LinkExtractor
 Summary:	HTML::LinkExtractor - extract links from an HTML document
-Summary(pl):	HTML::LinkExtractor - wyodrêbnianie odno¶ników z dokumentów HTML
+Summary(pl.UTF-8):   HTML::LinkExtractor - wyodrÄ™bnianie odnoÅ›nikÃ³w z dokumentÃ³w HTML
 Name:		perl-HTML-LinkExtractor
 Version:	0.13
 Release:	1
@@ -29,11 +29,11 @@ HTML::LinkExtractor Perl module is used for extracting links from
 HTML. It is very similar to HTML::LinkExtor, except that besides
 getting the URL, you also get the link-text.
 
-%description -l pl
-Modu³ Perla HTML::LinkExtractor s³u¿y do wyodrêbniania odno¶ników z
-kodu HTML. Jest on bardzo podobny do modu³u HTML::LinkExtor z tym
-wyj±tkiem, ¿e otrzymuje siê URL razem z tekstem stanowi±cym tre¶æ
-odno¶ników.
+%description -l pl.UTF-8
+ModuÅ‚ Perla HTML::LinkExtractor sÅ‚uÅ¼y do wyodrÄ™bniania odnoÅ›nikÃ³w z
+kodu HTML. Jest on bardzo podobny do moduÅ‚u HTML::LinkExtor z tym
+wyjÄ…tkiem, Å¼e otrzymuje siÄ™ URL razem z tekstem stanowiÄ…cym treÅ›Ä‡
+odnoÅ›nikÃ³w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
