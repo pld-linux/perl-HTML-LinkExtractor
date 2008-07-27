@@ -9,7 +9,7 @@ Summary:	HTML::LinkExtractor - extract links from an HTML document
 Summary(pl.UTF-8):	HTML::LinkExtractor - wyodrębnianie odnośników z dokumentów HTML
 Name:		perl-HTML-LinkExtractor
 Version:	0.13
-Release:	1
+Release:	2
 Epoch:		1
 # same as perl
 License:	GPL v1+ or Artistic
